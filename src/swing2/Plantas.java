@@ -1,4 +1,11 @@
 package swing2;
+/**
+ * 
+ * @author pedro
+ * 
+ * 
+ */
+
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -40,7 +47,13 @@ public class Plantas {
 	}
 
 	
-	
+	/**
+	 * 
+	 * @param id_planta Número de identificação da planta
+	 * @param nome_planta Nome da planta
+	 * @param num_carrinho Número de identificação do carrinho
+	 * 
+	 */
 	
 	//Método de cadastrar uma planta.
 	public boolean cadastrarPlanta(int id_planta , String nome_planta, int num_carrinho ) {
